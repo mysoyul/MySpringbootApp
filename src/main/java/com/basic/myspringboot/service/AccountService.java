@@ -12,6 +12,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.basic.myspringboot.entity.Account;
@@ -25,10 +26,14 @@ import lombok.RequiredArgsConstructor;
 public class AccountService implements UserDetailsService {
 	private final AccountRepository accountRepository;
 	private final MybootProperties property;
+	private final PasswordEncoder encoder;
 
 	// Account 레코드 추가
 	public Account createAccount(String username, String password) {
-		Account account = Account.builder().username(username).password(password).build();
+		Account account = Account.builder()
+				.username(username)
+				.password(encoder.encode(password))
+				.build();
 		return accountRepository.save(account);
 	}
 
