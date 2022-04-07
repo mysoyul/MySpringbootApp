@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
@@ -19,8 +21,10 @@ public class User {
 	
 	//@JsonIgnore
 	@JacksonXmlProperty
+	@NotEmpty(message = "Name 반드시 입력해에 공백문자는 가능함")
 	private String name;
 	
+	@NotBlank(message = "Email은 꼭 입력해에 공백문자도 않됨")
 	@JacksonXmlProperty
 	@Column(unique = true)
 	private String email;
