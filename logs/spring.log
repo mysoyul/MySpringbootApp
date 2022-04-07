@@ -3782,3 +3782,195 @@ java.lang.IllegalArgumentException: Invalid character found in method name [0x00
 2022-04-07 13:09:25.226  INFO 8844 --- [RMI TCP Connection(173)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-04-07 13:09:25.227  INFO 8844 --- [RMI TCP Connection(173)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-23 - Shutdown initiated...
 2022-04-07 13:09:25.228  INFO 8844 --- [RMI TCP Connection(173)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-23 - Shutdown completed.
+2022-04-07 13:09:29.235  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Starting MyspringbootAppApplication using Java 11.0.2 on LAPTOP-242K23FP with PID 19284 (C:\sts4.11-bundle\workspace\myspringboot-app\target\classes started by vega2 in C:\sts4.11-bundle\workspace\myspringboot-app)
+2022-04-07 13:09:29.247 DEBUG 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Running with Spring Boot v2.5.12, Spring v5.3.16
+2022-04-07 13:09:29.249  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : The following 1 profile is active: "test"
+2022-04-07 13:09:29.306  INFO 19284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-07 13:09:29.306  INFO 19284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-07 13:09:30.119  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 13:09:30.189  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2022-04-07 13:09:30.919  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8087 (http)
+2022-04-07 13:09:30.933  INFO 19284 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-04-07 13:09:30.934  INFO 19284 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-07 13:09:31.057  INFO 19284 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-04-07 13:09:31.058  INFO 19284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1751 ms
+2022-04-07 13:09:31.094  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2022-04-07 13:09:31.175  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2022-04-07 13:09:31.187  INFO 19284 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC'
+2022-04-07 13:09:31.340  INFO 19284 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 13:09:31.408  INFO 19284 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.33
+2022-04-07 13:09:31.555  INFO 19284 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 13:09:31.723  INFO 19284 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-04-07 13:09:32.307  INFO 19284 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 13:09:32.316  INFO 19284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:09:32.737  WARN 19284 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 13:09:32.926  INFO 19284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-07 13:09:33.005  WARN 19284 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 13:09:33.126  INFO 19284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-07 13:09:33.167  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8087 (http) with context path ''
+2022-04-07 13:09:33.179  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Started MyspringbootAppApplication in 4.496 seconds (JVM running for 5.724)
+2022-04-07 13:09:33.181 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DataSource 구현체 = com.zaxxer.hikari.HikariDataSource  
+2022-04-07 13:09:33.182 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Vendor Name = MariaDB
+2022-04-07 13:09:33.182 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB URL = jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC 
+2022-04-07 13:09:33.182 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Username = boot 
+2022-04-07 13:09:33.183 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 현재 적용된 Mode = Dev(Test) Mode
+2022-04-07 13:09:33.183 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Name = Spring
+2022-04-07 13:09:33.184 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Age = 31
+2022-04-07 13:09:33.184 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Property 클래스 fullName Spring Boot DevMode
+2022-04-07 13:09:33.184  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Program Argument = true
+2022-04-07 13:09:33.185  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : VM Argument = false
+2022-04-07 13:09:43.383  INFO 19284 --- [http-nio-8087-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 13:09:43.384  INFO 19284 --- [http-nio-8087-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-04-07 13:09:43.385  INFO 19284 --- [http-nio-8087-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2022-04-07 13:10:33.012  INFO 19284 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:10:33.016  INFO 19284 --- [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2022-04-07 13:10:33.022  INFO 19284 --- [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2022-04-07 13:10:33.119  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Starting MyspringbootAppApplication using Java 11.0.2 on LAPTOP-242K23FP with PID 19284 (C:\sts4.11-bundle\workspace\myspringboot-app\target\classes started by vega2 in C:\sts4.11-bundle\workspace\myspringboot-app)
+2022-04-07 13:10:33.121 DEBUG 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Running with Spring Boot v2.5.12, Spring v5.3.16
+2022-04-07 13:10:33.121  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : The following 1 profile is active: "test"
+2022-04-07 13:10:33.315  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 13:10:33.330  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2022-04-07 13:10:33.413  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8087 (http)
+2022-04-07 13:10:33.414  INFO 19284 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-04-07 13:10:33.415  INFO 19284 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-07 13:10:33.435  INFO 19284 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-04-07 13:10:33.436  INFO 19284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2022-04-07 13:10:33.447  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2022-04-07 13:10:33.450  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2022-04-07 13:10:33.450  INFO 19284 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC'
+2022-04-07 13:10:33.469  INFO 19284 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 13:10:33.475  INFO 19284 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-04-07 13:10:33.510  INFO 19284 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 13:10:33.510  INFO 19284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:10:33.576  WARN 19284 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 13:10:33.615  INFO 19284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-07 13:10:33.648  WARN 19284 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 13:10:33.697  INFO 19284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-07 13:10:33.708  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8087 (http) with context path ''
+2022-04-07 13:10:33.713  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Started MyspringbootAppApplication in 0.642 seconds (JVM running for 66.258)
+2022-04-07 13:10:33.714 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DataSource 구현체 = com.zaxxer.hikari.HikariDataSource  
+2022-04-07 13:10:33.714 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Vendor Name = MariaDB
+2022-04-07 13:10:33.714 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB URL = jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC 
+2022-04-07 13:10:33.714 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Username = boot 
+2022-04-07 13:10:33.715 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 현재 적용된 Mode = Dev(Test) Mode
+2022-04-07 13:10:33.715 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Name = Spring
+2022-04-07 13:10:33.716 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Age = 48
+2022-04-07 13:10:33.716 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Property 클래스 fullName Spring Boot DevMode
+2022-04-07 13:10:33.716  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Program Argument = true
+2022-04-07 13:10:33.716  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : VM Argument = false
+2022-04-07 13:10:33.717  INFO 19284 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-07 13:12:47.163  INFO 19284 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:12:47.164  INFO 19284 --- [Thread-7] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2022-04-07 13:12:47.171  INFO 19284 --- [Thread-7] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2022-04-07 13:12:47.269  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Starting MyspringbootAppApplication using Java 11.0.2 on LAPTOP-242K23FP with PID 19284 (C:\sts4.11-bundle\workspace\myspringboot-app\target\classes started by vega2 in C:\sts4.11-bundle\workspace\myspringboot-app)
+2022-04-07 13:12:47.270 DEBUG 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Running with Spring Boot v2.5.12, Spring v5.3.16
+2022-04-07 13:12:47.270  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : The following 1 profile is active: "test"
+2022-04-07 13:12:47.439  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 13:12:47.458  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2022-04-07 13:12:47.544  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8087 (http)
+2022-04-07 13:12:47.545  INFO 19284 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-04-07 13:12:47.545  INFO 19284 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-07 13:12:47.574  INFO 19284 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-04-07 13:12:47.574  INFO 19284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 302 ms
+2022-04-07 13:12:47.585  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2022-04-07 13:12:47.589  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2022-04-07 13:12:47.589  INFO 19284 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC'
+2022-04-07 13:12:47.607  INFO 19284 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 13:12:47.614  INFO 19284 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-04-07 13:12:47.647  INFO 19284 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 13:12:47.647  INFO 19284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:12:47.729  WARN 19284 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 13:12:47.766  INFO 19284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-07 13:12:47.786  WARN 19284 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 13:12:47.832  INFO 19284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-07 13:12:47.841  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8087 (http) with context path ''
+2022-04-07 13:12:47.846  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Started MyspringbootAppApplication in 0.625 seconds (JVM running for 200.391)
+2022-04-07 13:12:47.847 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DataSource 구현체 = com.zaxxer.hikari.HikariDataSource  
+2022-04-07 13:12:47.848 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Vendor Name = MariaDB
+2022-04-07 13:12:47.849 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB URL = jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC 
+2022-04-07 13:12:47.849 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Username = boot 
+2022-04-07 13:12:47.853 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 현재 적용된 Mode = Dev(Test) Mode
+2022-04-07 13:12:47.853 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Name = Spring
+2022-04-07 13:12:47.855 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Age = 31
+2022-04-07 13:12:47.855 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Property 클래스 fullName Spring Boot DevMode
+2022-04-07 13:12:47.855  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Program Argument = true
+2022-04-07 13:12:47.855  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : VM Argument = false
+2022-04-07 13:12:47.856  INFO 19284 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-07 13:12:59.784  INFO 19284 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:12:59.784  INFO 19284 --- [Thread-11] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2022-04-07 13:12:59.788  INFO 19284 --- [Thread-11] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2022-04-07 13:12:59.891  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Starting MyspringbootAppApplication using Java 11.0.2 on LAPTOP-242K23FP with PID 19284 (C:\sts4.11-bundle\workspace\myspringboot-app\target\classes started by vega2 in C:\sts4.11-bundle\workspace\myspringboot-app)
+2022-04-07 13:12:59.893 DEBUG 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Running with Spring Boot v2.5.12, Spring v5.3.16
+2022-04-07 13:12:59.893  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : The following 1 profile is active: "test"
+2022-04-07 13:13:00.102  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 13:13:00.114  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2022-04-07 13:13:00.189  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8087 (http)
+2022-04-07 13:13:00.190  INFO 19284 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-04-07 13:13:00.190  INFO 19284 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-07 13:13:00.218  INFO 19284 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-04-07 13:13:00.219  INFO 19284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 323 ms
+2022-04-07 13:13:00.227  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2022-04-07 13:13:00.230  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2022-04-07 13:13:00.231  INFO 19284 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC'
+2022-04-07 13:13:00.250  INFO 19284 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 13:13:00.255  INFO 19284 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-04-07 13:13:00.294  INFO 19284 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 13:13:00.294  INFO 19284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:13:00.365  WARN 19284 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 13:13:00.411  INFO 19284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-07 13:13:00.427  WARN 19284 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 13:13:00.469  INFO 19284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-07 13:13:00.480  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8087 (http) with context path ''
+2022-04-07 13:13:00.486  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Started MyspringbootAppApplication in 0.649 seconds (JVM running for 213.031)
+2022-04-07 13:13:00.487 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DataSource 구현체 = com.zaxxer.hikari.HikariDataSource  
+2022-04-07 13:13:00.487 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Vendor Name = MariaDB
+2022-04-07 13:13:00.488 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB URL = jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC 
+2022-04-07 13:13:00.488 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Username = boot 
+2022-04-07 13:13:00.488 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 현재 적용된 Mode = Dev(Test) Mode
+2022-04-07 13:13:00.489 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Name = Spring
+2022-04-07 13:13:00.489 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Age = 33
+2022-04-07 13:13:00.489 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Property 클래스 fullName Spring Boot DevMode
+2022-04-07 13:13:00.489  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Program Argument = true
+2022-04-07 13:13:00.489  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : VM Argument = false
+2022-04-07 13:13:00.490  INFO 19284 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-07 13:13:15.566  INFO 19284 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:13:15.566  INFO 19284 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown initiated...
+2022-04-07 13:13:15.570  INFO 19284 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown completed.
+2022-04-07 13:13:15.662  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Starting MyspringbootAppApplication using Java 11.0.2 on LAPTOP-242K23FP with PID 19284 (C:\sts4.11-bundle\workspace\myspringboot-app\target\classes started by vega2 in C:\sts4.11-bundle\workspace\myspringboot-app)
+2022-04-07 13:13:15.663 DEBUG 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Running with Spring Boot v2.5.12, Spring v5.3.16
+2022-04-07 13:13:15.663  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : The following 1 profile is active: "test"
+2022-04-07 13:13:15.851  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 13:13:15.865  INFO 19284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2022-04-07 13:13:15.941  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8087 (http)
+2022-04-07 13:13:15.942  INFO 19284 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-04-07 13:13:15.942  INFO 19284 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-07 13:13:15.969  INFO 19284 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-04-07 13:13:15.969  INFO 19284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 303 ms
+2022-04-07 13:13:15.979  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Starting...
+2022-04-07 13:13:15.983  INFO 19284 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Start completed.
+2022-04-07 13:13:15.983  INFO 19284 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC'
+2022-04-07 13:13:16.004  INFO 19284 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 13:13:16.013  INFO 19284 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-04-07 13:13:16.044  INFO 19284 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 13:13:16.044  INFO 19284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:13:16.132  WARN 19284 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 13:13:16.168  INFO 19284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-07 13:13:16.186  WARN 19284 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 13:13:16.220  INFO 19284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-07 13:13:16.229  INFO 19284 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8087 (http) with context path ''
+2022-04-07 13:13:16.234  INFO 19284 --- [restartedMain] c.b.m.MyspringbootAppApplication         : Started MyspringbootAppApplication in 0.623 seconds (JVM running for 228.779)
+2022-04-07 13:13:16.236 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DataSource 구현체 = com.zaxxer.hikari.HikariDataSource  
+2022-04-07 13:13:16.236 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Vendor Name = MariaDB
+2022-04-07 13:13:16.236 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB URL = jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC 
+2022-04-07 13:13:16.236 DEBUG 19284 --- [restartedMain] c.b.m.r.DBRunner                         : DB Username = boot 
+2022-04-07 13:13:16.237 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 현재 적용된 Mode = Dev(Test) Mode
+2022-04-07 13:13:16.238 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Name = Spring
+2022-04-07 13:13:16.238 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : 환경변수 Age = 21
+2022-04-07 13:13:16.239 DEBUG 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Property 클래스 fullName Spring Boot DevMode
+2022-04-07 13:13:16.239  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : Program Argument = true
+2022-04-07 13:13:16.239  INFO 19284 --- [restartedMain] c.b.m.r.MyRunner                         : VM Argument = false
+2022-04-07 13:13:16.241  INFO 19284 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-07 13:13:18.213  INFO 19284 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-07 13:13:18.478  INFO 19284 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 13:13:18.479  INFO 19284 --- [RMI TCP Connection(18)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+2022-04-07 13:13:18.483  INFO 19284 --- [RMI TCP Connection(18)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
