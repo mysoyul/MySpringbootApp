@@ -18,12 +18,16 @@ import org.springframework.web.bind.annotation.RestController;
 import com.basic.myspringboot.entity.User;
 import com.basic.myspringboot.exception.ResourceNotFoundException;
 import com.basic.myspringboot.repository.UserRepository;
+import com.basic.myspringboot.service.UserService;
 
 @RestController
 @RequestMapping("/users")
 public class UserRestController {
 	@Autowired
 	private UserRepository userRepository;
+	
+	@Autowired
+	private UserService userService;
 	
 	@PostMapping
 	public User saveUser(@RequestBody User user) {
@@ -44,12 +48,7 @@ public class UserRestController {
 	
 	@PutMapping("/{id}")
 	public User updateUser(@PathVariable Long id, @RequestBody User userDetail) {
-		User existUser = userRepository.findById(id)
-					.orElseThrow(() -> new ResourceNotFoundException("User", "ID", id));
-		existUser.setName(userDetail.getName());
-		existUser.setEmail(userDetail.getEmail());
-		User updateUser = userRepository.save(existUser);
-		return updateUser;
+		return userService.updateUser(id,userDetail);
 	}
 	//ResponseEntity
 	@DeleteMapping("{id}")
