@@ -19,4 +19,6 @@ public class UserRestController {
 	public User saveUser(@RequestBody User user) {
 		return userRepository.save(user);
 	}
+	
+	
 }
