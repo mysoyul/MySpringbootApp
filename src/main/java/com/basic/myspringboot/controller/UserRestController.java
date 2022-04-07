@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.basic.myspringboot.entity.User;
+import com.basic.myspringboot.entity.Users;
 import com.basic.myspringboot.service.UserService;
 
 @RestController
@@ -38,8 +39,10 @@ public class UserRestController {
 	}
 	
 	@GetMapping(value="/xml", produces = {"application/xml"})
-	public List<User> getUsersXml() {
-		return userService.getUsers();
+	public Users getUsersXml() {
+		Users users = new Users();
+		users.setUsers(userService.getUsers());
+		return users;
 	}
 	
 	@PutMapping("/{id}")
