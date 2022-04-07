@@ -1,5 +1,6 @@
 package com.basic.myspringboot.controller;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,5 +31,10 @@ public class UserRestController {
 		Optional<User> optional = userRepository.findById(id);
 		User existUser = optional.orElseThrow(() -> new ResourceNotFoundException("User", "ID", id));
 		return existUser;
+	}
+	
+	@GetMapping
+	public List<User> getUsers() {
+		return userRepository.findAll();
 	}
 }
