@@ -27,7 +27,7 @@ public class UserController {
 		return "leaf";
 	}
 
-	@GetMapping("/index")
+	@GetMapping("/userindex")
 	public String index(Model model) {
 		model.addAttribute("users", userRepository.findAll());
 		return "index";
