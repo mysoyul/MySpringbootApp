@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,5 +37,15 @@ public class UserRestController {
 	@GetMapping
 	public List<User> getUsers() {
 		return userRepository.findAll();
+	}
+	
+	@PutMapping("/{id}")
+	public User updateUser(@PathVariable Long id, @RequestBody User userDetail) {
+		User existUser = userRepository.findById(id)
+					.orElseThrow(() -> new ResourceNotFoundException("User", "ID", id));
+		existUser.setName(userDetail.getName());
+		existUser.setEmail(userDetail.getEmail());
+		User updateUser = userRepository.save(existUser);
+		return updateUser;
 	}
 }
