@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
 import lombok.Data;
 
@@ -14,11 +14,14 @@ import lombok.Data;
 @Data
 public class User {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@JacksonXmlProperty(isAttribute = true)
 	private Long id;
 	
 	//@JsonIgnore
+	@JacksonXmlProperty
 	private String name;
 	
+	@JacksonXmlProperty
 	@Column(unique = true)
 	private String email;
 	
