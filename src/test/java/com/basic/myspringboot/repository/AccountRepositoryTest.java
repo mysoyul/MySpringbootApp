@@ -45,10 +45,10 @@ public class AccountRepositoryTest {
 		System.out.println("Account2 : " + account2.getUsername());
 		System.out.println("Account : " + acct.getUsername());
 		//orElseGet() 의 아규먼트 Supplier 추상메서드 T get()
-//		Account account3 = optional.orElseGet(() -> new Account(0L, "", ""));
-//		System.out.println(account3.getId());
+		Account account3 = optional.orElseGet(() -> new Account(0L, "", ""));
+		System.out.println(account3.getId());
 		
 		//orElseGet() 의 아규먼트 Supplier <X extends Throwable>
-//		account3 = optional.orElseThrow(() -> new RuntimeException("Account Not Found"));
+		account3 = optional.orElseThrow(() -> new RuntimeException("Account Not Found"));
 	}
 }
