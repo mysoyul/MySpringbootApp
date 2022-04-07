@@ -1733,3 +1733,63 @@ Caused by: java.sql.SQLException: Unknown SEQUENCE: 'boot_db.hibernate_sequence'
 2022-04-07 09:12:08.345  INFO 9392 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-04-07 09:12:08.349  INFO 9392 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2022-04-07 09:12:08.354  INFO 9392 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2022-04-07 09:42:41.853  INFO 7888 --- [main] c.b.m.r.AccountRepositoryTest            : Starting AccountRepositoryTest using Java 11.0.2 on LAPTOP-242K23FP with PID 7888 (started by vega2 in C:\sts4.11-bundle\workspace\myspringboot-app)
+2022-04-07 09:42:41.863 DEBUG 7888 --- [main] c.b.m.r.AccountRepositoryTest            : Running with Spring Boot v2.5.12, Spring v5.3.16
+2022-04-07 09:42:41.864  INFO 7888 --- [main] c.b.m.r.AccountRepositoryTest            : The following 1 profile is active: "test"
+2022-04-07 09:42:42.720  INFO 7888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 09:42:42.780  INFO 7888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-04-07 09:42:43.489  INFO 7888 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 09:42:43.559  INFO 7888 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.33
+2022-04-07 09:42:43.802  INFO 7888 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 09:42:44.355  INFO 7888 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2022-04-07 09:42:44.439  INFO 7888 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2022-04-07 09:42:44.479  INFO 7888 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-04-07 09:42:45.197  INFO 7888 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 09:42:45.207  INFO 7888 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 09:42:45.543  WARN 7888 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 09:42:46.076  INFO 7888 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-07 09:42:46.331  WARN 7888 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 09:42:46.969  INFO 7888 --- [main] c.b.m.r.AccountRepositoryTest            : Started AccountRepositoryTest in 5.592 seconds (JVM running for 7.105)
+2022-04-07 09:42:46.971 DEBUG 7888 --- [main] c.b.m.r.DBRunner                         : DataSource 구현체 = com.zaxxer.hikari.HikariDataSource  
+2022-04-07 09:42:46.972 DEBUG 7888 --- [main] c.b.m.r.DBRunner                         : DB Vendor Name = MariaDB
+2022-04-07 09:42:46.972 DEBUG 7888 --- [main] c.b.m.r.DBRunner                         : DB URL = jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC 
+2022-04-07 09:42:46.972 DEBUG 7888 --- [main] c.b.m.r.DBRunner                         : DB Username = boot 
+2022-04-07 09:42:46.974 DEBUG 7888 --- [main] c.b.m.r.MyRunner                         : 현재 적용된 Mode = Dev(Test) Mode
+2022-04-07 09:42:46.974 DEBUG 7888 --- [main] c.b.m.r.MyRunner                         : 환경변수 Name = Spring
+2022-04-07 09:42:46.975 DEBUG 7888 --- [main] c.b.m.r.MyRunner                         : 환경변수 Age = 32
+2022-04-07 09:42:46.975 DEBUG 7888 --- [main] c.b.m.r.MyRunner                         : Property 클래스 fullName Spring Boot DevMode
+2022-04-07 09:42:46.976  INFO 7888 --- [main] c.b.m.r.MyRunner                         : Program Argument = false
+2022-04-07 09:42:46.976  INFO 7888 --- [main] c.b.m.r.MyRunner                         : VM Argument = false
+2022-04-07 09:42:47.467  INFO 7888 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 09:42:47.476  INFO 7888 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2022-04-07 09:42:47.491  INFO 7888 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2022-04-07 09:45:21.316  INFO 6028 --- [main] c.b.m.r.AccountRepositoryTest            : Starting AccountRepositoryTest using Java 11.0.2 on LAPTOP-242K23FP with PID 6028 (started by vega2 in C:\sts4.11-bundle\workspace\myspringboot-app)
+2022-04-07 09:45:21.327 DEBUG 6028 --- [main] c.b.m.r.AccountRepositoryTest            : Running with Spring Boot v2.5.12, Spring v5.3.16
+2022-04-07 09:45:21.328  INFO 6028 --- [main] c.b.m.r.AccountRepositoryTest            : The following 1 profile is active: "test"
+2022-04-07 09:45:22.312  INFO 6028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-07 09:45:22.393  INFO 6028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2022-04-07 09:45:23.194  INFO 6028 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-07 09:45:23.260  INFO 6028 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.33
+2022-04-07 09:45:23.466  INFO 6028 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-07 09:45:24.183  INFO 6028 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2022-04-07 09:45:24.271  INFO 6028 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2022-04-07 09:45:24.323  INFO 6028 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-04-07 09:45:25.070  INFO 6028 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-07 09:45:25.081  INFO 6028 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 09:45:25.441  WARN 6028 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-07 09:45:25.959  INFO 6028 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-04-07 09:45:26.176  WARN 6028 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-07 09:45:26.838  INFO 6028 --- [main] c.b.m.r.AccountRepositoryTest            : Started AccountRepositoryTest in 6.043 seconds (JVM running for 7.796)
+2022-04-07 09:45:26.840 DEBUG 6028 --- [main] c.b.m.r.DBRunner                         : DataSource 구현체 = com.zaxxer.hikari.HikariDataSource  
+2022-04-07 09:45:26.841 DEBUG 6028 --- [main] c.b.m.r.DBRunner                         : DB Vendor Name = MariaDB
+2022-04-07 09:45:26.841 DEBUG 6028 --- [main] c.b.m.r.DBRunner                         : DB URL = jdbc:mariadb://127.0.0.1:3306/boot_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC 
+2022-04-07 09:45:26.841 DEBUG 6028 --- [main] c.b.m.r.DBRunner                         : DB Username = boot 
+2022-04-07 09:45:26.842 DEBUG 6028 --- [main] c.b.m.r.MyRunner                         : 현재 적용된 Mode = Dev(Test) Mode
+2022-04-07 09:45:26.842 DEBUG 6028 --- [main] c.b.m.r.MyRunner                         : 환경변수 Name = Spring
+2022-04-07 09:45:26.843 DEBUG 6028 --- [main] c.b.m.r.MyRunner                         : 환경변수 Age = 1
+2022-04-07 09:45:26.843 DEBUG 6028 --- [main] c.b.m.r.MyRunner                         : Property 클래스 fullName Spring Boot DevMode
+2022-04-07 09:45:26.843  INFO 6028 --- [main] c.b.m.r.MyRunner                         : Program Argument = false
+2022-04-07 09:45:26.844  INFO 6028 --- [main] c.b.m.r.MyRunner                         : VM Argument = false
+2022-04-07 09:45:27.292  INFO 6028 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-07 09:45:27.297  INFO 6028 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2022-04-07 09:45:27.307  INFO 6028 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

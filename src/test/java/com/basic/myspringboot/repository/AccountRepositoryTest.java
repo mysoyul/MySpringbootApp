@@ -30,8 +30,8 @@ public class AccountRepositoryTest {
 		
 		Optional<Account> optional = repository.findById(2L);
 		System.out.println(optional.isPresent());
-		if(optional.isPresent()) {
-			Account existAccount = optional.get();
+		if(optional.isPresent()) { //true
+			Account existAccount = optional.get(); //optional에서 account 꺼내기
 			assertEquals("boot", existAccount.getUsername());
 		}
 		
@@ -44,5 +44,10 @@ public class AccountRepositoryTest {
 		
 		System.out.println("Account2 : " + account2.getUsername());
 		System.out.println("Account : " + acct.getUsername());
+		//orElseGet() 의 아규먼트 Supplier 추상메서드 T get()
+		Account account3 = optional.orElseGet(() -> new Account(0L, "", ""));
+		System.out.println(account3.getId());
+		//orElseGet() 의 아규먼트 Supplier <X extends Throwable>
+		account3 = optional.orElseThrow(() -> new RuntimeException("Account Not Found"));
 	}
 }
