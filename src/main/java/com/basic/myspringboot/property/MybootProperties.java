@@ -13,4 +13,6 @@ public class MybootProperties {
 	private String name;
 	private int age;
 	private String fullName;
+	private String username;
+	private String password;
 }
