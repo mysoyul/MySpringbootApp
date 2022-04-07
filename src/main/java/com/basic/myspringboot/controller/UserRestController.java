@@ -37,6 +37,11 @@ public class UserRestController {
 		return userService.getUsers();
 	}
 	
+	@GetMapping(value="/xml", produces = {"application/xml"})
+	public List<User> getUsersXml() {
+		return userService.getUsers();
+	}
+	
 	@PutMapping("/{id}")
 	public User updateUser(@PathVariable Long id, @RequestBody User userDetail) {
 		return userService.updateUser(id,userDetail);
@@ -46,4 +51,6 @@ public class UserRestController {
 	public ResponseEntity<?> deleteUser(@PathVariable Long id){
 		return userService.deleteUser(id);
 	}
+	
+	
 }
